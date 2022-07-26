@@ -1,0 +1,5 @@
+probe-basic (0.3-1) unstable; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- TurBoss <j.l.toledano.l@gmail.com>  Tue, 26 Jul 2022 02:49:34 +0200
