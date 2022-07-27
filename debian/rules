@@ -8,11 +8,6 @@ export PYBUILD_NAME=probe-basic
 %:
 	dh $@ --with python3 --buildsystem=pybuild
 
-override_dh_postinst:
-	dh_postinst
-	/usr/bin/qcompile /usr/lib/python3/dist-packages/probe_basic/
-
-
 # If you need to rebuild the Sphinx documentation
 # Add sphinxdoc to the dh --with line
 #
