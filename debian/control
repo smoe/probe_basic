@@ -12,11 +12,11 @@ Package: python3-probe-basic
 Architecture: all
 Depends: ${python3:Depends}, ${misc:Depends}
 Suggests: python-probe-basic-doc
-Description:
+Description: User interface for the LinuxCNC machine control. 
 
 Package: python-probe-basic-doc
 Architecture: all
 Section: doc
 Depends: ${sphinxdoc:Depends}, ${misc:Depends}
-Description: 
+Description: User interface for the LinuxCNC machine control. 
 
